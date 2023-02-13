@@ -2,7 +2,7 @@
 import React from "react";
 import { Typography, Row, Col } from "antd";
 import Histogram_Chart from "../Histogram/Histogram";
-import Pie from "../Pie/Histogram";
+import Pies from "../Pie/Histogram";
 
 /**
  * A functional component that displays the personal information of the user
@@ -174,7 +174,7 @@ function UserInfo() {
               <Title level={5}>Top 5: Products</Title>
             </Col>
             <Col span={24} style={{ paddingTop: "20px" }}>
-              <Pie />
+              <Pies />
             </Col>
           </Col>
         </Row>
