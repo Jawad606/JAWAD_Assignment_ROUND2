@@ -25,7 +25,7 @@ const buttons = [
       <>
         {/* Render a button with INPUT as the label */}
         <Button style={{ width: 120, borderRadius: 0 }}>
-          <NavLink to="/JAWAD_Assignment_ROUND2/input">INPUT</NavLink>{" "}
+          <NavLink to="//input">INPUT</NavLink>{" "}
         </Button>
       </>
     ),
@@ -36,7 +36,7 @@ const buttons = [
       <>
         {/* Render a button with OUTPUT as the label */}
         <Button style={{ width: 120, borderRadius: 0 }}>
-          <NavLink to="/JAWAD_Assignment_ROUND2/output">OUTPUT</NavLink>{" "}
+          <NavLink to="//output">OUTPUT</NavLink>{" "}
         </Button>
       </>
     ),
@@ -81,7 +81,7 @@ function Headers() {
             john.williams@exmaple.com
           </Title>
           {/* Render the sign out button */}
-          <Button onClick={() => nevigate("/JAWAD_Assignment_ROUND2")}>Sign Out</Button>
+          <Button onClick={() => nevigate("/")}>Sign Out</Button>
         </div>
       ),
     },
