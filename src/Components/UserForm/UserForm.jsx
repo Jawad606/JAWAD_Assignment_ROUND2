@@ -1,3 +1,10 @@
+/**
+
+UserForm component
+A form for collecting user information including name, gender, age, email, country, city, and file upload.
+The form is built using Ant Design components (Typography, Row, Col, Button) and Material UI components (TextField, InputLabel, MenuItem, FormControl, Select).
+@author [jawad]
+*/
 import { Typography, Row, Col, Button } from "antd";
 import React, { useState } from "react";
 import TextField from "@mui/material/TextField";

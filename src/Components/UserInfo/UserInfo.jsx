@@ -3,6 +3,11 @@ import React from "react";
 import { Typography, Row, Col } from "antd";
 import Histogram_Chart from "../Histogram/Histogram";
 import Pie from "../Pie/Histogram";
+
+/**
+ * A functional component that displays the personal information of the user
+ * @returns {JSX.Element} A react component
+ */
 function UserInfo() {
   const { Title } = Typography;
   return (
