@@ -164,7 +164,18 @@ function UserInfo() {
               {" "}
               <Title level={5}>Top 10: Products</Title>
             </Col>
-            <Col span={24} style={{ paddingTop: "20px" }}>
+            <Col
+              span={24}
+              style={{
+                paddingTop: "20px",
+                border: "1px solid  rgb(230, 230, 230)",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                width:'100%',
+                height:'500px'
+              }}
+            >
               <Histogram_Chart />
             </Col>
           </Col>
@@ -173,7 +184,19 @@ function UserInfo() {
               {" "}
               <Title level={5}>Top 5: Products</Title>
             </Col>
-            <Col span={24} style={{ paddingTop: "20px" }}>
+            <Col
+              span={24}
+              style={{
+                paddingTop: "20px",
+                border: "1px solid rgb(230, 230, 230)",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                width:'100%',
+                height:'500px'
+
+              }}
+            >
               <Pies />
             </Col>
           </Col>
