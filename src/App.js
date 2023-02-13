@@ -8,10 +8,10 @@ function App() {
     <div className="Bg">
       {/* Import login Page */}
       <Routes>
-        <Route path={"/"} element={<Login className="App" />} />
-        <Route path="//input" element={<InputPage />}  />
+        <Route path={"/JAWAD_Assignment_ROUND2"} element={<Login className="App" />} />
+        <Route path="/JAWAD_Assignment_ROUND2/input" element={<InputPage />}  />
         <Route
-          path="//output"
+          path="/JAWAD_Assignment_ROUND2/output"
           element={<OutputPage />}
         />
       </Routes>

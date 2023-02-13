@@ -38,7 +38,7 @@ const Login = () => {
       setErrMsg("");
       setSucMsg("Login Successfully");
       setColor("green");
-      nevigate("//input");
+      nevigate("/JAWAD_Assignment_ROUND2/input");
     } else {
       // set error message if validation fails
       setErrMsg("Either your password or login is incorrect");
